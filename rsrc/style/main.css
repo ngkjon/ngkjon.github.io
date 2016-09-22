@@ -19,6 +19,9 @@ header{
 #navbar ul li{
 display: inline;
 }
+a:hover,{
+color: black;
+}
 body{
 	
 
@@ -59,7 +62,9 @@ h2.header{
 	padding: 1%;
 	margin: 0;
 }
-
+h2.header:hover{
+	color: black;
+}
 ul.desc {
 	color: black;
 	margin-left: 1%;
@@ -77,6 +82,12 @@ img.contactIcon{
 	width: 2%;
 	height: 2%;
 }
+img.contactIcon:hover{
+	-webkit-filter: 
+	brightness(0.25); 
+	filter: 
+	brightness(0.25);
+}
 
 footer{
 	background: #239DF2;
@@ -86,6 +97,8 @@ footer{
 	bottom: 0px;
 	position: static;
 	clear:both;
-
+	padding: .5%;
+	text-align: center;
+	font-size: 200%;
 
 }
