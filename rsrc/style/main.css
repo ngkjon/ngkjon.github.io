@@ -19,7 +19,7 @@ header{
 #navbar ul li{
 display: inline;
 }
-a:hover,{
+#navbar ul li a:hover,{
 color: black;
 }
 body{
@@ -33,10 +33,13 @@ a{
 	text-decoration: none;
 	color: white;
 }
+a:hover{
+	color:black;
+}
 img#pic{
-	width: 15%;
+	width: 20%;
 	
-	border-radius: 50%;
+	border-radius: 45%;
 
 
 }
