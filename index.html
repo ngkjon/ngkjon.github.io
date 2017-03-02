@@ -2,13 +2,23 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>reactjs test site</title>
 		<!-- react lib-->
+		<header>default</header>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/react.js"></script>
     	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     	<script type="text/javascript">
-
-    		document.getElementById('head').appendChild('<meta property="og:title" content="mashup"/>');
+	    	function getUrlParameter(sParam) {
+	    		var sPageURL = window.location.search.substring(1);
+	    		var sURLVariables = sPageURL.split('&');
+	    		for (var i = 0; i < sURLVariables.length; i++) {
+	        		var sParameterName = sURLVariables[i].split('=');
+	        		if (sParameterName[0] == sParam) {
+	            		return sParameterName[1];
+	        		}
+	    		}
+			};
+    		var newhead = getUrlParameter("header");
+    		document.getElementById("header").innerHTML = newhead;
     	</script>
 	</head>
 	<body>
