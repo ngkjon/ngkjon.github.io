@@ -17,5 +17,9 @@ var content = document.createTextNode(blank);
 body.appendChild(content);
 var pos = document.getElementById('guts');
 document.body.insertBefore(body, pos);
-document.getElementById('title').append('meme')
-window.document.title('banjo')
+
+
+var titre = document.createTextNode("wow!");
+var title = document.createElement('title').appendChild(titre);
+var titlepos = document.getElementById('metatags');
+document.title.insertBefore(title,titlepos);
