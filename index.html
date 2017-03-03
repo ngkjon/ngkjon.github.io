@@ -3,26 +3,34 @@
 <html>
 	<head>
 		<!-- react lib-->
+		<title>doggo</title>
 		<header>default</header>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/react.js"></script>
     	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    	<script type="text/javascript">
-	    	function getUrlParameter(sParam) {
-	    		var sPageURL = window.location.search.substring(1);
-	    		var sURLVariables = sPageURL.split('&');
-	    		for (var i = 0; i < sURLVariables.length; i++) {
-	        		var sParameterName = sURLVariables[i].split('=');
-	        		if (sParameterName[0] == sParam) {
-	            		return sParameterName[1];
-	        		}
-	    		}
-			};
-    		var newhead = getUrlParameter("header");
-    		document.getElementById("header").innerHTML = newhead;
+    	<script src="js/home.js">
     	</script>
 	</head>
 	<body>
 		<div id=guts></div>
+		<meta property="og:site_name">
+		<meta property="og:url"			content=""/>
+		<meta property="og:title"		content="mashup"/>
+		<meta property="og:description"	content="mashup generated between"/>
+		<meta property="og:image"		content="thumbnail url"/>
+		<!--	This section can be used to open up the link in the app when the support for it comes
+		<meta property="al:ios:url"				content=""/>
+		<meta property="al:ios:app_store_id"	content="929775122"
+		<meta property="al:ios:app_name"		content="Rave"
+		<meta property="al:android:url"			content=""/>
+		<meta property="al:android:app_name"	content"Rave"/>
+		-->	
+		<meta property="al:web:url"		content="video source"/>		
+		<meta property="og:type"		content="video.other"/>	
+			<meta property="og:video:url"			content="video source"/>
+			<meta property="og:video:secure_url"	content="video source"/>
+			<meta property="og:video:type"			content="video/mp4"/>	
+			<meta property="og:video:width"			content="960"/>
+			<meta property="og:video:height"		content="720"/>
 	</body>
 <!--
 <title>Jonathan Ng</title>
