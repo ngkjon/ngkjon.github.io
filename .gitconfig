@@ -1,0 +1,19 @@
+[user]
+	name = ngkjon
+	email = ngkjon@gmail.com
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[alias]
+    l  = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ad) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative --exclude=origin/build_* --remotes --branches
+    co = checkout
+    st = status
+    cmm = commit -m
+    commend = commit --amend
+    up = remote update -p
+    bubble = merge --no-ff
+    pullr = pull --rebase
+    please = push --force-with-lease
+    git = !exec git
