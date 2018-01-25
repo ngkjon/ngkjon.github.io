@@ -17,7 +17,13 @@
     <script type="text/javascript" src="jquery.fullPage.js"></script>
     <script type="text/javascript">
       $(document).ready(function() {
-          $('#fullpage').fullpage();
+        $('#fullpage').fullpage({
+          menu: '#menu',
+          css3:true,
+          scrollBar:true,
+          loopHorizontal:false
+        
+        });
       });
     </script>
 
@@ -29,13 +35,31 @@
     <div id="fullpage">
           <div class="section">
             <h1>Jon. N</h1>
+            <div id="contact"></div>
             <p>this is a test body for section 1</p>
           </div>
 
           <div class="section">
+            <h1>Projects</h1>
             2 section
+            <div class="slide">
+              <h2>Receipt Analytics</h2>
+            </div>
+            <div class="slide">
+              <h2>Maze Solving Robot</h2>
+            </div>
+            <div class="slide">
+              <h2>Remote Control RPi Car</h2>
+            </div>
+            <div class="slide">
+              <h2>BattleShip Game</h2>
+            </div>
+            <div class="slide">
+              <h2>Cube Timer</h2>
+            </div>
           </div>
           <div class="section">
+            <h1>Work</h1>
             3 section
           </div>
           <div class="section">
