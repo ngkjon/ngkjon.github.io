@@ -1,19 +1,31 @@
 *
 {
-  color:#d9d9d9;
-  text-decoration: none;
-  font-family:verdana;
-  text-align:center;
-  list-style:none;
+  color:#d9d9d9 !important;
+  text-decoration: none ;
+  font-family:verdana !important;
+  text-align:center !important;
+  list-style:none !important;
 	font-size:1.5vw;
+	-moz-user-select: none !important;
+   -khtml-user-select: none !important;
+   -webkit-user-select: none !important;
+
+   /*
+     Introduced in IE 10.
+     See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+   */
+   -ms-user-select: none !important;
+   user-select: none !important;
+	cursor: default !important;
 }
 body
 {
- background-color:#333333;
+ background-color:#333333!important;
 }
 h1
 {
-  font-size:7vw;
+	font-weight:bold !important;
+  font-size:7vw !important;
   padding-bottom:0%;
 }
 #gh:hover, #ig:hover, #li:hover, #em:hover, #re:hover
@@ -38,8 +50,7 @@ h1
 }
 #skills
 {
-	padding-left:15vw;
-	padding-right:15vw;
+	margin:0 15vw 0 15vw
 }
 ul
 {
