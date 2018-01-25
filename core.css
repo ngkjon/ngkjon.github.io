@@ -5,6 +5,7 @@
   font-family:verdana;
   text-align:center;
   list-style:none;
+	font-size:1.5vw;
 }
 body
 {
@@ -14,10 +15,6 @@ h1
 {
   font-size:7vw;
   padding-bottom:0%;
-}
-p
-{
-  font-size:2vw;
 }
 #gh:hover, #ig:hover, #li:hover, #em:hover, #re:hover
 {
@@ -38,6 +35,11 @@ p
 #contact li
 {
   display:inline-block;
+}
+#skills
+{
+	padding-left:15vw;
+	padding-right:15vw;
 }
 ul
 {
