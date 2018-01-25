@@ -4,7 +4,7 @@
   text-decoration: none;
   font-family:verdana;
   text-align:center;
-
+  list-style:none;
 }
 body
 {
@@ -12,5 +12,35 @@ body
 }
 h1
 {
-  font-size:500%;
+  font-size:7vw;
+  padding-bottom:0%;
 }
+p
+{
+  font-size:2vw;
+}
+#gh:hover, #ig:hover, #li:hover, #em:hover, #re:hover
+{
+  fill-opacity:0.4;
+}
+.social-icon
+{
+  fill:#d9d9d9;
+}
+#contact
+{
+	padding-top:0%;
+}
+#contact ul
+{
+  text-align:center;
+}
+#contact li
+{
+  display:inline-block;
+}
+ul
+{
+	padding:0;
+}
+
