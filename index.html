@@ -1,25 +1,47 @@
 <!-- created -->
 <!DOCTYPE html>
-<!test>
 <html>
-	<head id=test>
-		<title>NgKJon</title>
-		<div id=metatags>
-			
-		</div>
-		<div id="nav">
-			<ul>
-				<li><a href="index.html">Main</a></li>
-				<li><a href="projects.html">Projects</a></li>
-				<li><a href="work.html">Work History</a></li>
-				<li><a href="kanban.html">Board</a></li>
-				<li><a href="contact.html">Contact</a></li>
+	<head>
+    <link rel="stylesheet" href="core.css">
+    <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
 
-			</ul>
-		</div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <!-- This following line is optional. Only necessary if you use the option css3:false and you want to use other easing effects rather than "linear", "swing" or "easeInOutCubic". -->
+    <script src="vendors/jquery.easings.min.js"></script>
+
+
+    <!-- This following line is only necessary in the case of using the option `scrollOverflow:true` -->
+    <script type="text/javascript" src="vendors/scrolloverflow.min.js"></script>
+
+    <script type="text/javascript" src="jquery.fullPage.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+          $('#fullpage').fullpage();
+      });
+    </script>
+
+
+		<title>Jon. N</title>
+
 	</head>
 	<body>
-		
+    <div id="fullpage">
+          <div class="section">
+            <h1>Jon. N</h1>
+            <p>this is a test body for section 1</p>
+          </div>
+
+          <div class="section">
+            2 section
+          </div>
+          <div class="section">
+            3 section
+          </div>
+          <div class="section">
+            4 section
+          </div>
+    </div>
 		
 	</body>
 
