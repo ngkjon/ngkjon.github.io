@@ -22,7 +22,18 @@
           menu: '#menu',
           css3:true,
           scrollBar:true,
-          loopHorizontal:false
+          controlArrows: true,
+		      verticalCentered: true,
+          loopBottom: true,
+	      	loopTop: true,
+          fadingeffect:true,
+          navigation: true,
+          navigationPosition: 'right',
+	      	navigationTooltips: ['home', 'about', 'skills', 'projects', 'work'],
+	      	showActiveTooltip: true,
+          slidesNavigation: true,
+		      slidesNavPosition: 'bottom'
+          
         
         });
       });
@@ -53,9 +64,9 @@
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path class="social-icon" d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z"/></svg>
                   </a>
                 </li>
-                <li id="em" >
-                  <a href="mailto:jonathankarlng@gmail.com">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path class="social-icon" d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z"/></svg>
+                <li id="me" >
+                  <a href="https://medium.com/@ngkjon">
+                    <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill-rule="evenodd" clip-rule="evenodd"><path class="social-icon" d="M2.846 6.887c.03-.295-.083-.586-.303-.784l-2.24-2.7v-.403h6.958l5.378 11.795 4.728-11.795h6.633v.403l-1.916 1.837c-.165.126-.247.333-.213.538v13.498c-.034.204.048.411.213.537l1.871 1.837v.403h-9.412v-.403l1.939-1.882c.19-.19.19-.246.19-.537v-10.91l-5.389 13.688h-.728l-6.275-13.688v9.174c-.052.385.076.774.347 1.052l2.521 3.058v.404h-7.148v-.404l2.521-3.058c.27-.279.39-.67.325-1.052v-10.608z"/></svg>
                   </a>
                 </li>
                 <li id="re">
@@ -67,7 +78,12 @@
             </div>
             <p>Just a student with a passion for design and software</p>
           </div>
-
+          <div class="section">
+            <h1>About</h1>
+              <p id="about">
+                Hi, my name is Jonathan and I'm a student attending the University of Waterloo studying Systems Design Engineering. My interests include. Some of my hobbies include fishing, soccer and jamming out to just about any tunes from the 90's. 
+              </p>
+          </div>
           <div class="section">
             <h1>Skills</h2>
             <ul id="skills">
@@ -81,12 +97,12 @@
               <div class="container">
                 <h2>Receipt Analytics</h2>
                 <div class="row">
-                <div class="col-sm-6">
+                <div class="col-md-6">
       <h3>Column 1</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
       <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
     </div>
-    <div class="col-sm-6">
+    <div class="col-md-6">
       <h3>Column 2</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
       <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
@@ -110,6 +126,7 @@
           <div class="section">
             <h1>Work</h1>
             <div class="slide">
+              <img src="img/td.png">
               <h2>TD Bank</h2>
             </div>
             <div class="slide">
