@@ -8,26 +8,72 @@
   url('roboto.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 .bar{
-margin-top: 1%;
-margin-bottom: 1%;
+margin-top: 1vh;
+margin-bottom: 1vh;
 width:100%;
 height: 1vh;
 background-color: #FEC398;
 
 }
-h1{
+.title{
 	font-weight: bold;
 	font-size: 5vh;
-
+	width:80%;
+	display: inline-block;
 }
 h2{
 	font-weight: normal;
 	font-size: 5vh;
 }
 body{
+	background-color: #FDFDFD;
+	color: #333333;
 	font-family: 'Roboto', sans-serif;
 	margin-left:25%;
 	margin-right:25%;
 	margin-top: 40vh;
 	overflow: hidden;
+	text-decoration: none;
+}
+
+/*social stuff*/
+.social-icon
+{
+  fill: #333333;
+}
+.navbar{
+	/*display:inline-block ; */
+	float:right;
+	width: 20%;
+	height:5vh;
+}
+#contact ul, .navbar ul
+{
+  color: #333333;
+  list-style: none;
+  margin: auto;
+  padding: 0;
+  
+}
+#contact li
+{
+  display:inline; 
+  text-align: center;
+  padding: 5px;
+
+}
+.navbar li
+{
+  display:inline;
+  float: right;
+  padding: 5px;
+
+
+}
+a { color: inherit; 
+text-decoration: none;} 
+/*#dr:hover, #gh:hover, #ig:hover, #li:hover, #me:hover, #re:hover, .navbar li*/
+li:hover
+{
+    fill-opacity:0.4;
 }
