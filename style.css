@@ -19,7 +19,7 @@
 
   .title{
 	  font-weight: 700 !important;
-	  font-size: 50;
+	  font-size: 4.5vh;
   
   }
   .phonetic{
@@ -48,7 +48,7 @@
   
   }
   .text{
-	font-size: 37.5;
+	font-size: 4vh;
 
   }
   #home{
@@ -63,7 +63,7 @@
 		margin-right:30%;
   }
   #about p{
-	  font-size: 28;
+	  font-size: 2.5vh;
   }
   /*social stuff*/
   .social-icon
@@ -104,7 +104,7 @@
 	
 	padding-top: 2vh;
 	vertical-align: middle !important;
-	font-size: 24;
+	font-size: 2.5vh;
   
   
   }
